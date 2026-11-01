@@ -1,0 +1,15 @@
+{
+  "client_id": "https://whallysson.github.io/pages/whally/oauth-client.json",
+  "client_name": "Whally",
+  "client_uri": "https://whallysson.github.io/pages/whally/",
+  "logo_uri": "https://whallysson.github.io/pages/whally/icon.png",
+  "redirect_uris": [
+    "http://127.0.0.1:51717/callback",
+    "http://127.0.0.1:51718/callback",
+    "http://127.0.0.1:51719/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "application_type": "native"
+}
